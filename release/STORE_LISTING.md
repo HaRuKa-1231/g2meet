@@ -85,6 +85,80 @@ Productivity
 
 > The extension's single purpose is to detect when the user starts speaking in Gather.town and suggest opening a Google Meet to record and transcribe the conversation.
 
+## Copy-paste blocks for Developer Dashboard
+
+### Single Purpose
+
+```
+The extension's single purpose is to detect when the user starts speaking in Gather.town and suggest opening a Google Meet to record and transcribe the conversation.
+```
+
+### Permission: tabs
+
+```
+To detect when the Meet tab that the extension created is redirected to its final meet.google.com/<code> URL, so we can capture the URL for sharing.
+```
+
+### Permission: storage
+
+```
+To save detection state, debounce/suppression timestamps, the latest generated Meet URL, and the user's enabled toggle. All stored locally; nothing leaves the device.
+```
+
+### Permission: scripting
+
+```
+To re-inject the content scripts into already-open Gather tabs when the extension is installed, updated, or reloaded.
+```
+
+### Permission: alarms
+
+```
+To schedule an auto-dismiss of the detection toast after about 30 seconds of silence, in a way that survives the service worker going idle.
+```
+
+### Host Permissions (single field)
+
+```
+- https://app.gather.town/* : To run the detection content script in the Gather app and read the user's own speech events.
+
+- https://meet.google.com/* : To auto-click the "Join now" button on the Meet tab the extension itself opened, so the user joins without an extra click.
+```
+
+### Remote Code
+
+```
+No. All code and dependencies are bundled within the package; the extension does not load any external JavaScript or use eval().
+```
+
+### Data Usage
+
+The extension does not collect any of the following — uncheck all boxes:
+
+- Personally identifiable information
+- Health information
+- Financial and payment information
+- Authentication information
+- Personal communications
+- Location
+- Web history
+- User activity
+- Website content
+
+Then certify all three (check all):
+
+- Does not sell or transfer user data to third parties, outside of the approved use cases.
+- Does not use or transfer user data for purposes unrelated to the item's single purpose.
+- Does not use or transfer user data to determine creditworthiness or for lending purposes.
+
+### Privacy Policy URL
+
+```
+https://haruka-1231.github.io/g2meet/PRIVACY
+```
+
+---
+
 ## Permission Justifications
 
 | Permission  | Justification                                                                                                                                                          |
