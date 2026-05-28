@@ -1,0 +1,37 @@
+{
+  "app_name": { "message": "G2Meet" },
+  "app_description": {
+    "message": "Detect conversations in Gather and suggest a Google Meet for recording and transcription."
+  },
+  "action_title": { "message": "G2Meet" },
+
+  "desc_idle": {
+    "message": "When speech is detected, we'll suggest starting a Meet to record / transcribe."
+  },
+  "section_detected": { "message": "Speech detected" },
+  "btn_start_meet": { "message": "Start Meet" },
+  "btn_close": { "message": "Close" },
+  "btn_suppress_5": { "message": "Stop for 5 min" },
+  "btn_suppress_10": { "message": "Stop for 10 min" },
+  "section_meet_created": { "message": "Meet started" },
+  "section_meet_body": {
+    "message": "Share the URL so everyone joins and records together."
+  },
+  "btn_copy_url": { "message": "Copy URL" },
+  "btn_copied": { "message": "Copied" },
+  "toggle_on": { "message": "On" },
+  "toggle_off": { "message": "Off" },
+  "test_fire": { "message": "Test fire (debug)" },
+  "status_creating_meet": { "message": "Starting Meet…" },
+  "status_url_copied": { "message": "URL copied" },
+  "status_suppressed": { "message": "Stopped for {n} min" },
+  "status_test_fired": { "message": "Test fired" },
+  "toast_detected_title": { "message": "🎙 Speech detected" },
+  "toast_detected_body": {
+    "message": "Start a Meet to record and transcribe? Share the URL with everyone."
+  },
+  "toast_meet_title": { "message": "✅ Meet started" },
+  "toast_meet_body": {
+    "message": "Share the URL so everyone joins and records together."
+  }
+}

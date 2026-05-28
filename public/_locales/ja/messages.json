@@ -1,0 +1,35 @@
+{
+  "app_name": { "message": "G2Meet" },
+  "app_description": {
+    "message": "Gather で会話を検知して、録画・文字起こし用の Google Meet 立ち上げを提案します。"
+  },
+  "action_title": { "message": "G2Meet" },
+
+  "desc_idle": {
+    "message": "会話を検知したら、録画・文字起こし用の Meet を提案します。"
+  },
+  "section_detected": { "message": "会話を検知" },
+  "btn_start_meet": { "message": "Meet を立ち上げる" },
+  "btn_close": { "message": "閉じる" },
+  "btn_suppress_5": { "message": "5 分停止" },
+  "btn_suppress_10": { "message": "10 分停止" },
+  "section_meet_created": { "message": "Meet を立ち上げました" },
+  "section_meet_body": {
+    "message": "URL を共有して記録を残しましょう。"
+  },
+  "btn_copy_url": { "message": "URL をコピー" },
+  "btn_copied": { "message": "コピー済み" },
+  "toggle_on": { "message": "ON" },
+  "toggle_off": { "message": "OFF" },
+  "test_fire": { "message": "テスト発火" },
+  "status_creating_meet": { "message": "Meet を立ち上げ中…" },
+  "status_url_copied": { "message": "コピーしました" },
+  "status_suppressed": { "message": "{n} 分停止しました" },
+  "status_test_fired": { "message": "テスト発火" },
+  "toast_detected_title": { "message": "🎙 会話を検知" },
+  "toast_detected_body": {
+    "message": "録画・文字起こし用に Meet を立ち上げますか？"
+  },
+  "toast_meet_title": { "message": "✅ Meet を立ち上げました" },
+  "toast_meet_body": { "message": "URL を共有して記録を残しましょう。" }
+}

@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2F3EE0"/>
+      <stop offset="0.38" stop-color="#2F3EE0"/>
+      <stop offset="0.62" stop-color="#FFBE00"/>
+      <stop offset="1" stop-color="#FFBE00"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.28" cy="0.22" r="0.7" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.3"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="0" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.28"/>
+      <stop offset="0.25" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="26" fill="url(#bg)"/>
+  <rect width="128" height="128" rx="26" fill="url(#glow)"/>
+  <rect width="128" height="128" rx="26" fill="url(#rim)"/>
+  <text x="20" y="62" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.5" fill="#FFBE00">G</text>
+  <text x="58" y="116" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif" font-size="56" font-weight="800" letter-spacing="-1.5" fill="#2F3EE0">M</text>
+</svg>
